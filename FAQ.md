@@ -31,7 +31,8 @@ Puis déplacez le dans votre dossier « Applications »
 Puis configurer votre git en modifiant le fichier texte ~/.gitconfig
 Dedans ajouter le code 
 
-```[difftool "kdiff3"]
+```
+[difftool "kdiff3"]
     path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
     trustExitCode = false
 [difftool]
@@ -46,4 +47,4 @@ Dedans ajouter le code
 [merge]
     tool = kdiff3
     ```
-Voilà vous avez en faisant """git mergetool""" un outil puissant de visualiseur de version
+Voilà vous avez en faisant ```git mergetool``` un outil puissant de visualiseur de version.
