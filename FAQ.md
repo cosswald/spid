@@ -46,5 +46,6 @@ Dedans ajouter le code
     keepBackup = false
 [merge]
     tool = kdiff3
-    ```
+```
+
 Voilà vous avez en faisant ```git mergetool``` un outil puissant de visualiseur de version.
