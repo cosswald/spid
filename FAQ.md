@@ -29,7 +29,9 @@ Si la fusion automatique n'est pas possible, l'utilisateur doit choisir manuelle
 Téléchargez le à l’adresse suivante : http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/kdiff3-0.9.98-MacOSX-64Bit.dmg/download
 Puis déplacez le dans votre dossier « Applications »
 Puis configurer votre git en modifiant le fichier texte ~/.gitconfig
-Dedans ajouter le code """[difftool "kdiff3"]
+Dedans ajouter le code 
+
+```[difftool "kdiff3"]
     path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
     trustExitCode = false
 [difftool]
@@ -42,5 +44,6 @@ Dedans ajouter le code """[difftool "kdiff3"]
 [mergetool]
     keepBackup = false
 [merge]
-    tool = kdiff3"""
+    tool = kdiff3
+    ```
 Voilà vous avez en faisant """git mergetool""" un outil puissant de visualiseur de version
