@@ -14,7 +14,7 @@ Après avoir modifié un fichier, faire un *commit* permet d'enregistrer cette m
 Une *branche* est un espace dans lequel le travail effectué ne modifiera pas le fichier dans les autres branches. Une branche permet de développer son travail dans un conteneur propre et isolé. Les branches peuvent être fusionnées pour mettre en commun les modifications faites aux fichiers.
 
 ####Qu'est qu'un fork sur Github ?
-Un *fork* est une copie d'une dépôt d'un autre utilisateur. Il permet de travailler dans son propre espace sur un projet développer ailleurs et de proposer des modifications en *pushant* vers le projet originel. Un *push* doit être accepté par le propriétaire du projet originel.
+Un *fork* est une copie d'un dépôt d'un autre utilisateur. Il permet de travailler dans son propre espace sur un projet développé par ailleurs et de proposer des modifications en *pushant* vers le projet originel. Un *push* doit être accepté par le propriétaire du projet originel.
 
 ####un clone ?
 Un *clone* est une copie locale d'un dépôt distant. Il permet de travailer hors-ligne et de renvoyer ses modifications plus tard vers le projet en ligne.
