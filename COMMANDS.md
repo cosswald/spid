@@ -10,13 +10,13 @@ CONFIGURATION DES OUTILS
 ========================
 Configurer les informations de l'utilisateur pour tous les dépôts locaux
 
-**git config --global user.name "[nom]"**
+**git config --global user.name "[nom]"**  
 Définir le nom que vous voulez associer à toutes vos opérations de commit
 
-**git config --global user.email "[adresse email]"**
+**git config --global user.email "[adresse email]"**  
 Définir l'email que vous voulez associer à toutes vos opérations de commit
 
-**git config --global http.proxy http://192.168.1.17:8080**
+**git config --global http.proxy http://192.168.1.17:8080**  
 Définir le proxy de l’école à utiliser
 
 **git config --global –unset http.proxy**
