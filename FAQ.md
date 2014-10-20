@@ -11,19 +11,19 @@ Sur http://github.com
 Après avoir modifié un fichier, faire un *commit* permet d'enregistrer cette modification, de lui donner un titre et une date. En clair, cela met à jour la version du fichier.
 
 ####Qu'est-ce qu'une branche ?
-Une *branche* est un espace dans lequel le travail effectué ne modifiera pas le fichier dans les autres branches. Il permet de créer sa propre version du fichier. Les branches peuvent être fusionnées pour mettre en commun les modifications faites aux fichiers.
+Une *branche* est un espace dans lequel le travail effectué ne modifiera pas le fichier dans les autres branches. Une branche permet de développer son travail dans un conteneur propre et isolé. Les branches peuvent être fusionnées pour mettre en commun les modifications faites aux fichiers.
 
-####Qu'est qu'un fork ?
-Un *fork* est une branche faite à partir du projet d'un autre utilisateur. Le *fork* permet de ttravailler dans son propre espace avant de proposer ses modifications en *pushant* vers le projet originel pour fusionner les modifications. Un *push* doit être accepté par l'ayanyt-droit du projet.
+####Qu'est qu'un fork sur Github ?
+Un *fork* est une copie d'une dépôt d'un autre utilisateur. Il permet de travailler dans son propre espace sur un projet développer ailleurs et de proposer des modifications en *pushant* vers le projet originel. Un *push* doit être accepté par le propriétaire du projet originel.
 
 ####un clone ?
-Un *clone* est une copie locale d'un projet. Il permet de travailer hors-ligne et de renvoyer ses modifications plus tard vers le prjet en ligne.
+Un *clone* est une copie locale d'un dépôt distant. Il permet de travailer hors-ligne et de renvoyer ses modifications plus tard vers le projet en ligne.
 
 ####un merge ?
-Le *merge* est l'inverse de la *branche* C'est la fusion d'une branche dans l'autre, les versions étant fusionnées automatiquement si possible. 
+Le *merge* est l'action de fusionner deux branches d'un projet. Si aucun conflit n'apparaît, les branches peuvent être fusionnées automatiquement.  Sinon, il faut résoudre à la main les conflits.
 
 ####un diff ?
-Si la fusion automatique n'est pas possible, l'utilisateur doit choisir manuellement les options de fusion. Le *diff* permet l'affichage des différentes versions et le choix des elements de chaque version.
+Le *diff* permet de visualiser les différences des différentes versions des fichiers d'un dépôt. 
 
 ##Comment utiliser le logiciel kdiff3 sur mac ?
 Téléchargez le à l’adresse suivante : http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/kdiff3-0.9.98-MacOSX-64Bit.dmg/download
